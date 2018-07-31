@@ -1,0 +1,51 @@
+{
+  "backendType": "SECOND_GEN",
+  "connectionName": "pe-training:us-east1:shell-instance16",
+  "databaseVersion": "MYSQL_5_6",
+  "etag": "\"owIwbPCMl___5FpvLn6vsQ5VnhQ/MQ\"",
+  "gceZone": "us-east1-b",
+  "instanceType": "CLOUD_SQL_INSTANCE",
+  "ipAddresses": [
+    {
+      "ipAddress": "35.237.163.127",
+      "type": "PRIMARY"
+    }
+  ],
+  "kind": "sql#instance",
+  "name": "shell-instance16",
+  "project": "pe-training",
+  "region": "us-east1",
+  "selfLink": "https://www.googleapis.com/sql/v1beta4/projects/pe-training/instances/shell-instance16",
+  "serverCaCert": {
+    "cert": "-----BEGIN CERTIFICATE-----\nMIIDITCCAgmgAwIBAgIBADANBgkqhkiG9w0BAQsFADBIMSMwIQYDVQQDExpHb29n\nbGUgQ2xvdWQgU1FMIFNlcnZlciBDQTEUMBIGA1UEChMLR29vZ2xlLCBJbmMxCzAJ\nBgNVBAYTAlVTMB4XDTE4MDczMTE2MjIyNVoXDTI4MDcyODE2MjMyNVowSDEjMCEG\nA1UEAxMaR29vZ2xlIENsb3VkIFNRTCBTZXJ2ZXIgQ0ExFDASBgNVBAoTC0dvb2ds\nZSwgSW5jMQswCQYDVQQGEwJVUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBAJ5sAVXa6dM6QakgNS0GvYn48gvKzD1Qljh2dCmJTvgqT9C3umg4Sqmqto15\nwNr3VXzlvUzs+mZs5Iyey4gRw/EbWuKa4KekIcPLbgR2L1cGOV4vhGxmh3hxR2D4\n0XYrLUbmPGO/6oL0Rqo/kU6H5Q0WrG7wVJf0Kxo5eLl9CN2yIppH/x6rlRgnHNid\ngEN44ORPgNUn/ZApPs072L8VKerCHOe13O7lxsBo7arRwifzP3yIt5GsS683ARIh\nnuQHs1/NNqIScZor3ziJUukBiw0s0qFKpvPp/HFSKxru+R15UTOyc3VxDEju6A6M\nEy9G7QT1pze1GA5JVCu2x+jlKNsCAwEAAaMWMBQwEgYDVR0TAQH/BAgwBgEB/wIB\nADANBgkqhkiG9w0BAQsFAAOCAQEAYbev0zWjCaHMwE2eFSksJtJQgxW+iLt+OhZa\nejbRT6Hn5zzbki7ru9C11NTr0w93Qd7KEutrrB44VqJrslk/2+fMrNtPI/6TIIVI\nTXaMglwu4IcY3/TUqGH+9QySko5xr9VQAgR2LKjUdj2rIhuDkbXj+kyH1hWuXA2v\nbWbrpquw6FAH5ZWetTl8d0QA7bna+sG9TJwzN7bMD8jfo5UgzsUUabUJgtFpfgCQ\niH/PvtkYmtAvdU538IZPHB4IiJ5GdAU5mRlEWB23Y7usCMpwMHnK98kG/TkqQYlu\n+cAur+zjlBEPRGgQq6r1aFAP4qFoGAHJGPFLTQML6PbCKExnVg==\n-----END CERTIFICATE-----",
+    "certSerialNumber": "0",
+    "commonName": "C=US,O=Google\\, Inc,CN=Google Cloud SQL Server CA",
+    "createTime": "2018-07-31T16:22:25.617000+00:00",
+    "expirationTime": "2028-07-28T16:23:25.617000+00:00",
+    "instance": "shell-instance16",
+    "kind": "sql#sslCert",
+    "sha1Fingerprint": "d4a811ebc85a7a3e00395a165d4f86230601bbc7"
+  },
+  "serviceAccountEmailAddress": "ad6dxzlxzfa5feev327witqste@speckle-umbrella-18.iam.gserviceaccount.com",
+  "settings": {
+    "activationPolicy": "ALWAYS",
+    "backupConfiguration": {
+      "enabled": false,
+      "kind": "sql#backupConfiguration",
+      "startTime": "20:00"
+    },
+    "dataDiskSizeGb": "10",
+    "dataDiskType": "PD_SSD",
+    "ipConfiguration": {
+      "ipv4Enabled": true
+    },
+    "kind": "sql#settings",
+    "pricingPlan": "PER_USE",
+    "replicationType": "SYNCHRONOUS",
+    "settingsVersion": "1",
+    "storageAutoResize": true,
+    "storageAutoResizeLimit": "0",
+    "tier": "db-f1-micro"
+  },
+  "state": "RUNNABLE"
+}
