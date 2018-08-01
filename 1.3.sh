@@ -1,3 +1,4 @@
+#!/bin/bash
 #1.3
 PROJECTNAME="pe-training"
 read -p "Enter VPC name" VpcName
